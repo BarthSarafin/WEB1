@@ -1,0 +1,29 @@
+@charset"UTF-8";
+
+/*
+*	Stylesheet for ToDo List
+*/
+
+html * {
+	font-family: 'Georgia Pro', georgia, serif;
+	line-height: 20px;
+	color: darkred;
+}
+
+h1 {
+	color: darkblue;
+	font-family: Disko;
+}
+
+body p {
+	color: lightgrey;
+}
+
+.selection_checkbox:checked + .selection_label {
+	text-decoration: line-through;
+}
+
+@font-face {
+    font-family: Disko;
+    src: disko_font/Disko.Woff;
+}

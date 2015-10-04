@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*
+ * Stylesheet for flower_blog
+*/
+
+html * {
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, Serif;
+}
+
+body {
+	background-color: darkgrey;
+}
+
+nav {
+	color: yellow;
+	background-color: black;
+}
+
+section {
+	outline: 1px solid black;
+	background-color: white;
+	line-height: 25px;
+}
+
+header {
+	color: #00FF34;
+}
+
+article {
+	font-family: 'Georgia Pro', georgia, serif;
+	text-align: right;
+	text-indent: 40px;
+	letter-spacing: 2px;
+}
+
+h1 {
+	color: #FF9800;
+	text-transform: uppercase;
+}
+
+a[href] {
+	color: lightblue;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

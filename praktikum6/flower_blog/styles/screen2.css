@@ -1,0 +1,261 @@
+/* Stylesheet für Praktikum 6
+*/
+
+
+
+/**
+ *hintergrund farbe
+ *
+ */
+
+body {
+        background-color: grey;       
+}
+
+
+/**
+ *Alle Überschriften
+ *
+ */
+
+
+h1, h2, h3, h4 {
+        color: blue;
+}
+
+  
+
+
+/**
+ *Die Navigationsliste
+ */
+
+nav {
+        outline: 5px solid blue;
+}
+
+
+/**
+ *Die Links der Navigation
+ */
+
+
+nav a {
+        color: red;
+}
+
+
+/**
+ *Die Links im Kommentarbereich
+ */
+
+#comments a {
+                color: lime;                
+}
+
+
+/**
+ * Der Artikel mit dem eigentlichen Blog Post
+ */
+
+.blogPost p:first-child {
+        
+                color: blue;
+}
+
+
+/**
+ *
+ *Alle h2 - Überschriften, die direkt unter einem header -Element vorkommen
+ *
+ */
+
+header > h2{
+              
+              color: green;  
+}
+
+
+
+/**
+ *
+ *Alle p -Elemente, die mindestens zwei Stufen unter einer section liegen
+ *
+ */
+
+section * p {
+        
+                font-family: cursive;
+                color: darkorange;
+}
+
+
+/**
+ *Der erste Link in der Hauptnavigation
+ *
+ */
+
+.selected a{
+        
+                color: gold;
+}
+
+
+
+/**
+ *
+ *
+ *Der erste Absatz des eigentlichen Blog-Post-Artikels
+ */
+
+.blogPost p:first-child{
+        
+                font-size: 150%;
+                color: dodgerblue;
+        
+}
+
+/**
+ *Der zweite Absatz des eigentlichen Blog-Post-Artikels
+ *
+ */
+
+
+.blogPost div p{        
+                font-size: 120%;
+                color: magenta;
+}
+
+/**
+ *
+ *Der dritte Absatz des eigentlichen Blog-Post-Artikels
+ */
+                
+
+.blogPost div p + p{        
+                font-size: 80%;
+                color: slateblue;
+        
+}
+
+
+*[datetime] {
+        
+                color: hotpink;
+}
+
+
+/**
+ *
+ *CSS3
+ */
+
+/**Der vierte Link der Hauptnavigation
+ *
+ *
+ */
+
+nav ul li:nth-child(4) a{
+        
+                        color: aquamarine;
+                        font-size: 120%;
+}
+
+/**
+ *
+ *Alle PNG-Bilder im Dokument (z.B. mit { border: 5px solid red; } )
+ *
+ *endet mit png
+ */
+
+
+img[src$=".png"]{
+        
+                border: 5px solid red;
+}
+
+/**
+ *
+ *attribute die mit 2099 anfangen
+ */
+
+time[datetime^="2009"] {
+        
+                color: palevioletred;
+                font-family: fantasy
+}
+/**
+ *
+ *das vierte kind von li css3
+ */
+
+nav ul li:nth-child(4) a{
+        
+                        color: aquamarine;
+                        font-size: 120%;
+}
+                        
+                        
+
+/**
+ *
+ *
+ *generische schriftarten kommen zum einsatz wenn der client browser die gewüschnten nicht zur veffügung hat. 
+ */
+
+
+html {
+                
+        font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+        line-height: normal;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+/**
+ *
+ *verweise die sich ändern mit maus
+ *
+ */
+
+
+
+a {
+        text-decoration: none;
+}
+
+
+}
+a:visited{
+        
+        color: blue;
+}
+
+a:hover, a:focus {
+        
+        text-decoration: underline;
+}
+/**
+a:active {
+        
+        color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
